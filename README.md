@@ -1,6 +1,6 @@
 # Node.js CRUD API
 
-Esta é uma simples API RESTful de CRUD (Create, Read, Update, Delete) desenvolvida em Node.js utilizando o framework Express. A aplicação simula um banco de dados usando um array para armazenar os itens.
+Esta é uma simples API RESTful de CRUD (Create, Read, Update, Delete) desenvolvida em Node.js utilizando o framework Express e Nodemon. A aplicação simula um banco de dados usando um array para armazenar os produtos.
 
 ## Pré-requisitos
 
@@ -20,7 +20,7 @@ npm install
 1. Inicie o servidor executando o seguinte comando:
 
 ```shell
-node index.js
+npm start
 ```
 
 A API estará disponível em `http://localhost:3000`.
@@ -39,8 +39,9 @@ Os itens são representados como objetos JSON com a seguinte estrutura:
 
 ```json
 {
-"id": 1,
-"descricao": "Arroz parboilizado 5Kg", 
-"valor": 25.00, 
-"marca": "Tio João"
+    "id": 1,
+    "descricao": "Arroz parboilizado 5Kg",
+    "valor": 25.00,
+    "marca": "Tio João"
 }
+```
