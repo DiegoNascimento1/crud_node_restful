@@ -1,0 +1,14 @@
+# Ignorar arquivos de configuração do npm
+node_modules/
+npm-debug.log*
+
+# Ignorar arquivos gerados pelo npm
+package-lock.json
+
+# Ignorar diretórios de logs
+logs/
+*.log
+
+# Ignorar diretórios específicos para projetos
+/dist/
+/build/
